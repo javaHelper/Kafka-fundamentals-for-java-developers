@@ -1,0 +1,19 @@
+{
+  "namespace": "com.example.kafka.avro",
+  "type": "record",
+  "name": "Order",
+  "fields": [
+    {
+      "name": "customerName",
+      "type": "string"
+    },
+    {
+      "name": "product",
+      "type": "string"
+    },
+    {
+      "name": "quantity",
+      "type": "int"
+    }
+  ]
+}

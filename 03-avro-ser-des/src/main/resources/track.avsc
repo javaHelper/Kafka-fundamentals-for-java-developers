@@ -1,0 +1,19 @@
+{
+  "namespace": "io.github.fernanda.maia.kafka.avro",
+  "type": "record",
+  "name": "Track",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "latitude",
+      "type": "string"
+    },
+    {
+      "name": "longitude",
+      "type": "string"
+    }
+  ]
+}
